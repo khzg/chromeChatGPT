@@ -1,0 +1,83 @@
+body {
+  width: 180px;
+  height: 212px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  background-color: #f7f7f8;
+}
+#menu,
+#promptLinks,
+#aiMenu,
+#aiList{
+  padding-left: 0px;
+  margin: 0px;
+  overflow-y: scroll;
+  height: 212px;
+}
+li,
+.back,
+.pages {
+  color: #ffffff;
+  border: none;
+  margin-top: 3px;
+  display: block;
+  width: 180px;
+  cursor: pointer;
+  height: 30px;
+  font-size: 100%;
+  text-align: center;
+  background-color: #0c96c8;
+  border-radius: 5px;
+  padding-top: 8px;
+  font-size: 16px;
+}
+a {
+  text-decoration: none;
+}
+.more {
+  font-size: 11px;
+  color: #353535;
+}
+.links {
+  margin: 3px;
+
+}
+.newTab {
+	font-size: 13px;
+	margin-top: 10px;
+}
+.donate{
+  color: red;
+  font-size: 12px;
+  padding-left: 4px;
+}
+.orange{
+  background-color: #fb7b2d;
+}
+#aiList li {
+	color: #000;
+	border: none;
+	margin-top: 3px;
+	display: block;
+	width: 180px;
+	height: 30px;
+	font-size: 100%; 
+	text-align: center;
+	background-color: #fff;
+	border-radius: 5px;
+	padding-top: 8px;
+	font-size: 16px;
+	position: relative;
+  cursor: default;
+}
+#aiList a {
+	color: red;
+	position: absolute;
+	right: 9px;
+	font-weight: bold;
+  cursor: pointer;
+}
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
