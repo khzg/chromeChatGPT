@@ -14,11 +14,13 @@ and
 
 Free prompts
 
+
 Boost your productivity with:
 
 Faster access to AI chat
 
 and learning a variety of prompts
+
 
 IF IT WORKS FOR YOU, GIVE IT 5 STARS.
 
