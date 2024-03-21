@@ -4,22 +4,12 @@
 
 This extension provides easy access to a variety of AI chatbots and learning prompts, including support for:
 
-OpenAI ChatGPT
-
-Google Gemini
-
-Other popular chatbots
-
-and
-
-Free prompts
+OpenAI ChatGPT, Google Gemini, Other popular chatbots and Free prompts.
 
 
 Boost your productivity with:
 
-Faster access to AI chat
-
-and learning a variety of prompts
+Faster access to AI chat and learning a variety of prompts
 
 
 IF IT WORKS FOR YOU, GIVE IT 5 STARS.
