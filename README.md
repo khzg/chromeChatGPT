@@ -2,8 +2,18 @@
 
 ## Ai Chat everywhere (Chrome addons)
 
-Faster access to AI and prompts.
-support OpenAI ChatGPT, Google Gemini, You Chat, Perplexity Ai, Bing image, Suno music, Copilot.
+This extension provides easy access to a variety of AI chatbots and learning prompts, including support for:
+
+    OpenAI ChatGPT
+    Google Gemini
+    Other popular chatbots
+    and
+    Free prompts
+
+Boost your productivity with:
+
+    Faster access to AI chat
+    and learning a variety of prompts
 
 IF IT WORKS FOR YOU, GIVE IT 5 STARS.
 
