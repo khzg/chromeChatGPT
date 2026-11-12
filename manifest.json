@@ -1,14 +1,39 @@
 {
   "manifest_version": 3,
   "name": "Ai Chat everywhere",
-  "version": "1.4",
-  "action": {
-    "default_icon": "icon.png",
-    "default_popup": "popup.html"
-  },
+  "version": "1.7.2",
+  "description": "Akses cepat ke ChatGPT, Gemini, Claude, DeepSeek, Muse, Grok, NotebookLM, dan chatbot AI lainnya dari toolbar browser.",
   "icons": {
     "32": "icon-32.png",
     "64": "icon-64.png",
     "128": "icon.png"
-  }
+  },
+  "action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "storage",
+    "history"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["icon.png"],
+      "matches": ["<all_urls>"]
+    }
+  ]
 }
+

@@ -1,8 +1,9 @@
 body {
   width: 180px;
-  height: 212px;
+  height: 380px;
   overflow-x: hidden;
-  overflow-y: scroll;
+  overflow-y: auto;
+  scroll-behavior: smooth;
   background-color: #f7f7f8;
 }
 #menu,
@@ -11,8 +12,6 @@ body {
 #aiList{
   padding-left: 0px;
   margin: 0px;
-  overflow-y: scroll;
-  height: 212px;
 }
 li,
 .back,
@@ -55,6 +54,9 @@ a {
 }
 .orange{
   background-color: #fb7b2d;
+}
+.folder {
+  background-color: #204755;
 }
 #aiList li {
 	color: #000;
